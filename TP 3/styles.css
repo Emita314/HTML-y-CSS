@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #875af0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.dinosaur-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.carnivoros {
+    background-color: darkred;
+}
+
+.herbivoros {
+    background-color: lightgreen;
+}
+
+#tyrannosaurus {
+    font-size: 24px;
+    color: rgb(255, 7, 7);
+}
+
+#triceratops {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.voladores {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.acuaticos {
+    font-style: italic;
+    color: blue;
+}
+
+.dinosaur-section h2 {
+    text-align: center;
+    color: rgb(168, 37, 37);
+}
+
+.dinosaur-section p {
+    letter-spacing: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
